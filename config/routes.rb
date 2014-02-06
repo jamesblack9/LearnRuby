@@ -1,4 +1,6 @@
 Todos::Application.routes.draw do
+  get "say/hello"
+  get "say/goodbye"
   resources :todos
 
   # The priority is based upon order of creation: first created -> highest priority.
